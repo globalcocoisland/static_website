@@ -1,0 +1,72 @@
+/* Icon outline */
+.icon-outline {
+    @apply w-6 h-6 inline-block;
+
+    mask-position: center;
+    mask-size: 24px 24px;
+}
+
+.icon-outline.icon-x {
+    mask-image: url('../img/icons/outline/icon-x.svg')
+}
+
+.icon-outline.icon-menu {
+    mask-image: url('../img/icons/outline/icon-menu.svg')
+}
+
+.icon-outline.chevron-left {
+    mask-image: url('../img/icons/outline/chevron-left.svg')
+}
+
+.icon-outline.chevron-right {
+    mask-image: url('../img/icons/outline/chevron-right.svg')
+}
+
+
+/* Icon Solid */
+.icon-solid {
+    @apply w-6 h-6 inline-block;
+
+    mask-position: center;
+    mask-size: 20px 20px;
+}
+
+.icon-solid.location-marker {
+    mask-image: url('../img/icons/solid/location-marker.svg')
+}
+
+.icon-solid.device-mobile {
+    mask-image: url('../img/icons/solid/device-mobile.svg')
+}
+
+.icon-solid.mail {
+    mask-image: url('../img/icons/solid/mail.svg')
+}
+
+.icon-solid.whatsapp {
+    mask-image: url('../img/icons/solid/whatsapp.svg')
+}
+
+/* Social Media */
+.social-media-24 {
+    @apply w-6 h-6 inline-block;
+
+    mask-position: center;
+    mask-size: 24px 24px;
+}
+
+.social-media-24.facebook {
+    mask-image: url('../img/icons/social-media/facebook.svg')
+}
+
+.social-media-24.instagram {
+    mask-image: url('../img/icons/social-media/instagram.svg')
+}
+
+.social-media-24.twitter {
+    mask-image: url('../img/icons/social-media/twitter.svg')
+}
+
+.social-media-24.linkedin {
+    mask-image: url('../img/icons/social-media/linkedin.svg')
+}

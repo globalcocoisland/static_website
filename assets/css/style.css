@@ -1,0 +1,61 @@
+/* Import Icon Style */
+@import url('~/assets/css/_icons.css');
+
+/* Core Style */
+body {
+    @apply font-body;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    @apply mx-auto;
+}
+
+/* Image */
+img {
+    @apply block;
+
+    -ms-interpolation-mode: nearest-neighbor;
+    -ms-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    transform: translateZ(0);
+}
+
+/* Button */
+.button {
+    @apply inline-block;
+    @apply py-2 px-3;
+    @apply text-sm text-center font-medium;
+    @apply rounded-full;
+    @apply border border-solid;
+
+    min-width: 140px;
+}
+
+.button-primary {
+    @apply text-accent-white;
+
+    background: linear-gradient(180deg, #1095B3 0%, #169AB7 100%);
+    box-shadow: 0px 2px 8px rgba(16, 149, 178, 0.2), 0px 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.button-white {
+    @apply border-accent-white;
+    @apply bg-accent-white text-black-100;
+}
+
+.button-ghost-white {
+    @apply border-accent-white bg-opacity-0 text-accent-white;
+}
+
+.button-ghost-black {
+    @apply border-accent-black bg-opacity-0 text-accent-black;
+}
