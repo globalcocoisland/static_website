@@ -142,7 +142,7 @@
         & .menu--list {
             @apply relative;
             @apply py-2 block cursor-pointer;
-            @apply text-right font-medium;
+            @apply text-right font-medium text-xl lg:text-base;
             @apply transition duration-150 ease-linear;
 
             @media screen and (min-width: 768px) {

@@ -23,7 +23,7 @@
         width: 50px;
 
         @media screen and (min-width: 1024px) {
-            bottom: 60px;
+            bottom: 80px;
             height: 60px;
             width: 60px;
         }

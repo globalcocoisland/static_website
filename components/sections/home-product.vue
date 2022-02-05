@@ -2,15 +2,15 @@
     <div class="container px-4 py-8 xl:py-20">
         <section-header class="text-center">
             <template #header>
-                <h2 class="text-2xl font-bold text-accent-black md:text-3xl lg:text-4xl font-display">
+                <h2 class="text-3xl font-bold text-accent-black md:text-4xl lg:text-5xl font-display">
                     Our Products
                 </h2>
             </template>
-            <template #excerpt>
+            <!-- <template #excerpt>
                 <p class="pt-2 text-sm text-black-100 lg:text-base lg:pt-4">
                     Ut aliquet tempus tempus. Quisque ante quam, egestas et dictum ut, tempor congue risus. In at erat volutpat, rhoncus tortor nec, faucibus arcu.
                 </p>
-            </template>
+            </template> -->
         </section-header>
 
         <div class="product-group">
@@ -64,7 +64,7 @@
                         name: 'Briquette',
                         description: 'Charcoal briquettes are an alternative fuel used for cooking, especially for grilling foodstuffs, and smoking shisha pipes. Coconut charcoal briquettes can produce more heat than coal or charcoal briquettes from mangroves. In addition, briquettes from coconut charcoal are also safer, environmentally friendly, because they do not damage plants such as mangroves and cause less smoke.',
                         image: 'product-arang-kelapa-lg.jpg',
-                        link: 'https://wa.me/6285737428956?text=Halo%20Global%20Coco%20Island%2C%20saya%20ingin%20bertanya%20mengenai%20produk%Briquette'
+                        link: 'https://wa.me/6285737428956?text=Halo%20Global%20Coco%20Island%2C%20saya%20ingin%20bertanya%20mengenai%20produk%20Briquette'
                     },
                 ]
             }
