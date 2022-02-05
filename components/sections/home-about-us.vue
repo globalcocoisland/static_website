@@ -55,7 +55,7 @@
                         class="mr-2 button button-primary lg:mr-3">
                             Our Produts
                     </a>
-                    <a href="" target="_blank" class="button button-ghost-black">Contact Us</a>
+                    <a href="https://wa.me/6285737428956?text=Halo%20Global%20Coco%20Island%2C%20saya%20ingin%20bertanya%20mengenai%20produk%20Anda" target="_blank" class="button button-ghost-black">Contact Us</a>
                 </div>
             </div>
             <div class="hidden image md:block md:col-span-3 lg:col-span-4">

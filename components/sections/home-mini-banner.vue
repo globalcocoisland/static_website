@@ -8,7 +8,7 @@
                 <div class="col-span-10 col-start-2 body lg:grid lg:grid-cols-10 lg:col-start-2 lg:gap-4">
                     <p class="text-sm text-accent-white lg:text-base lg:col-span-6">We develop a network of farmers across the coconut plantations that we manage. We ensure readiness in our processing plants, to produce the best products with international quality.</p>
                     <div class="mt-4 btn-group lg:col-span-4 lg:text-center">
-                        <a href="#" target="_blank" class="inline-block button button-white">Get direction</a>
+                        <a href="https://www.google.com/maps/place/Yayasan+ANAK+-+Lila+Cita+Sawan/@-8.1408551,115.1760352,19.82z/data=!4m5!3m4!1s0x2dd191f7aeef3bd1:0xfe6fdd44081caf80!8m2!3d-8.1409468!4d115.1763356?hl=en" target="_blank" class="inline-block button button-white">Get direction</a>
                     </div>
                 </div>
             </div>

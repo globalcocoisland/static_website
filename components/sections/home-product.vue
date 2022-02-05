@@ -30,7 +30,7 @@
                         <p class="text-sm leading-loose text-accent-black">{{ product.description }}</p>
                     </div>
                     <div class="btn-group">
-                        <a :href="`${product.link}`" class="button button-primary">Order Now</a>
+                        <a :href="`${product.link}`" target="_blank" class="button button-primary">Order Now</a>
                     </div>
                 </div>
             </div>
@@ -52,19 +52,19 @@
                         name: 'Fresh Coconut',
                         description: 'Fresh coconut is the first product produced by coconut farmers in the form of fresh coconuts. Fresh coconut consists of meat and coconut water which can be consumed directly without processing.',
                         image: 'product-buah-kelapa-lg.jpg',
-                        link: 'test'
+                        link: 'https://wa.me/6285737428956?text=Halo%20Global%20Coco%20Island%2C%20saya%20ingin%20bertanya%20mengenai%20produk%20Fresh%20Coconut'
                     },
                     {
                         name: 'Coconut Oil',
                         description: 'Coconut oil is a vegetable oil extracted from the flesh of the coconut fruit. Based on the extraction technique, coconut oil can be grouped into three types: Virgin Coconut Oil (VCO), Non-RBD Coconut Oil, and RBD Coconut Oil.',
                         image: 'product-minyak-kelapa-lg.jpg',
-                        link: ''
+                        link: 'https://wa.me/6285737428956?text=Halo%20Global%20Coco%20Island%2C%20saya%20ingin%20bertanya%20mengenai%20produk%20Coconut%20Oil'
                     },
                     {
                         name: 'Briquette',
                         description: 'Charcoal briquettes are an alternative fuel used for cooking, especially for grilling foodstuffs, and smoking shisha pipes. Coconut charcoal briquettes can produce more heat than coal or charcoal briquettes from mangroves. In addition, briquettes from coconut charcoal are also safer, environmentally friendly, because they do not damage plants such as mangroves and cause less smoke.',
                         image: 'product-arang-kelapa-lg.jpg',
-                        link: ''
+                        link: 'https://wa.me/6285737428956?text=Halo%20Global%20Coco%20Island%2C%20saya%20ingin%20bertanya%20mengenai%20produk%Briquette'
                     },
                 ]
             }

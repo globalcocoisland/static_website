@@ -1,6 +1,7 @@
 <template>
 	<div id="home">
 		<main-navigation />
+		<floating-wa-button />
 		<hero-banner/>
 		<home-about-us id="homeAbout"/>
 		<home-mini-banner/>
@@ -13,6 +14,7 @@
 
 <script>
 	import mainNavigation from '~/components/main-navigation/main-navigation.vue';
+	import floatingWaButton from '~/components/partials/floating-button-wa.vue';
 	import heroBanner from '~/components/hero-banner/hero-banner.vue';
 	import homeAboutUs from '~/components/sections/home-about-us.vue';
 	import homeMiniBanner from '~/components/sections/home-mini-banner.vue';
@@ -24,6 +26,7 @@
 	export default {
 		components: {
 			mainNavigation,
+			floatingWaButton,
 			heroBanner,
 			homeAboutUs,
 			homeMiniBanner,

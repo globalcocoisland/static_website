@@ -4,8 +4,8 @@
         class="relative flex flex-col items-center justify-center px-4 py-10"
     >
         <div class="container text-center text-accent-white">
-            <h1 class="pb-4 text-2xl font-display md:text-4xl lg:text-5xl xl:text-6xl lg:pb-6">Starting from the Fresh.<br/>Premium Quality.<br/>Affordable prices.</h1>
-            <p class="px-8 text-sm md:w-6/12 md:mx-auto md:px-0 lg:text-base xl:text-lg">Integer fringilla eros odio, quis faucibus erat accumsan ac. In hac habitasse platea dictumst. Morbi sed lorem lobortis, lacinia ex sit amet, porttitor sem. Aliquam molestie dolor vel leo porta iaculis.</p>
+            <h1 class="pb-4 text-3xl font-display md:text-4xl lg:text-5xl xl:text-6xl lg:pb-6">Global Coco Island<br/>We deliver quality</h1>
+            <!-- <p class="px-8 text-sm md:w-6/12 md:mx-auto md:px-0 lg:text-base xl:text-lg">Integer fringilla eros odio, quis faucibus erat accumsan ac. In hac habitasse platea dictumst. Morbi sed lorem lobortis, lacinia ex sit amet, porttitor sem. Aliquam molestie dolor vel leo porta iaculis.</p> -->
             <div class="flex flex-row flex-wrap items-center justify-center pt-6 btn-group">
                 <a
                     v-scroll-to="{
@@ -77,6 +77,6 @@
     }
 
     h1 {
-        line-height: 120%;
+        line-height: 150%;
     }
 </style>

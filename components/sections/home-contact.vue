@@ -10,31 +10,37 @@
                     </template>
                     <template #excerpt>
                         <p class="pt-2 text-sm text-black-100 lg:text-base lg:pt-4">
-                            Jl. Hayam Wuruk 3-RR RT 006/02, Kebun Kelapa Bali - Indonesia
+                            Kawanan Street, Sawan District, Buleleng, Bali
                         </p>
                     </template>
                 </section-header>
                 <ul class="contact-menu">
                     <li>
-                        <a href="#">
+                        <a href="https://www.google.com/maps/place/Yayasan+ANAK+-+Lila+Cita+Sawan/@-8.1408551,115.1760352,19.82z/data=!4m5!3m4!1s0x2dd191f7aeef3bd1:0xfe6fdd44081caf80!8m2!3d-8.1409468!4d115.1763356?hl=en" target="_blank">
                             <i class="icon-solid location-marker"></i>
                             <span>Find on google maps</span>
                         </a>
                     </li>
                     <li>
-                        <a href="tel:">
+                        <a href="tel:+6285935130763">
                             <i class="icon-solid device-mobile"></i>
-                            <span>(+62)855593288</span>
+                            <span>+62 859-3513-0763</span>
                         </a>
                     </li>
                     <li>
-                        <a href="mailto:">
+                        <a href="mailto:putuadisutrisna1988@gmail.com">
                             <i class="icon-solid mail"></i>
-                            <span>global.cocoisland@mail.com</span>
+                            <span>putuadisutrisna1988@gmail.com</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#" target="_blank">
+                        <a href="mailto:bambangsuparwa56@gmail.com">
+                            <i class="icon-solid mail"></i>
+                            <span>bambangsuparwa56@gmail.com</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/6285737428956?text=Halo%20Global%20Coco%20Island%2C%20saya%20ingin%20bertanya%20mengenai%20produk%20Anda" target="_blank">
                             <i class="icon-solid whatsapp"></i>
                             <span>Chat us on WhatsApp</span>
                         </a>
@@ -48,7 +54,7 @@
                             id="gmap_canvas"
                             width="600"
                             height="500"
-                            src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            src="https://maps.google.com/maps?q=-8.1381156,115.1747524&t=&z=16&ie=UTF8&iwloc=&output=embed"
                             frameborder="0"
                             scrolling="no"
                             marginheight="0"

@@ -7,11 +7,11 @@
                         Photo Gallery
                     </h2>
                 </template>
-                <template #excerpt>
+                <!-- <template #excerpt>
                     <p class="pt-2 text-sm text-black-100 lg:text-base lg:pt-4">
                         Ut aliquet tempus tempus. Quisque ante quam, egestas et dictum ut, tempor congue risus. In at erat volutpat, rhoncus tortor nec, faucibus arcu.
                     </p>
-                </template>
+                </template> -->
             </section-header>
             <div class="grid w-full grid-cols-12 gap-4">
                 <div class="relative col-span-12 lg:col-span-10 lg:col-start-2">

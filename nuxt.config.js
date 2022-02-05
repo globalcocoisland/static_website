@@ -15,9 +15,9 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'global-coco-island',
+    title: 'Global Coco Island',
     htmlAttrs: {
-      lang: 'id'
+      lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
