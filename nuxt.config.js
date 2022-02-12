@@ -22,7 +22,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Global Coco Island is specifically processed and supply raw materials from fresh coconut to processed coconut products.' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
