@@ -67,30 +67,53 @@
         data() {
             return {
                 mainSwiperOptions: {
-                    spaceBetween: 0,
-                    swiperSlide: 1,
+                    loop: true,
+                    loopedSlides: 6,
+                    spaceBetween: 10,
                     navigation: {
                         nextEl: '.swiper-button-next',
                         prevEl: '.swiper-button-prev'
-                    }
+                    },
                 },
                 thumbnailSwiperOptions: {
-                    centeredSlides: false,
+                    loop: true,
+                    loopedSlides: 6,
+                    centeredSlides: true,
                     slideToClickedSlide: true,
-                    slidesPerView: 3,
-                    spaceBetween: 16,
+                    slidesPerView: 'auto',
+                    spaceBetween: 10,
                     touchRatio: 0.2,
-                    breakpoints: {
-                        1024: {
-                            slidesPerView: 5,
-                        }
-                    }
+                    // breakpoints: {
+                    //     1024: {
+                    //         slidesPerView: 'auto',
+                    //     }
+                    // }
                 },
                 photos: [
                     {
-                        src: 'demo-gallery-01.jpg',
-                        description: 'Curabitur imperdiet imperdiet sapien.'
-                    }
+                        src: 'gallery-01.jpg',
+                        description: 'Gallery-01.'
+                    },
+                    {
+                        src: 'gallery-02.jpg',
+                        description: 'Gallery-02.'
+                    },
+                    {
+                        src: 'gallery-03.jpg',
+                        description: 'Gallery-03.'
+                    },
+                    {
+                        src: 'gallery-04.jpg',
+                        description: 'Gallery-04.'
+                    },
+                    {
+                        src: 'gallery-05.jpg',
+                        description: 'Gallery-05.'
+                    },
+                    {
+                        src: 'gallery-06.jpg',
+                        description: 'Gallery-06.'
+                    },
                 ]
             }
         },
@@ -145,6 +168,19 @@
 
     .main-slider .image {
         @apply aspect-w-1 aspect-h-1 md:aspect-w-4 md:aspect-h-2 relative;
+    }
+
+    .thumb-slider .swiper-slide {
+        @apply w-1/4 opacity-60 cursor-pointer;
+        @apply transition-all duration-300 ease-linear;
+
+        @media screen and (min-width: 1024px) {
+            @apply w-1/4;
+        }
+
+        &.swiper-slide-active {
+            @apply opacity-100;
+        }
     }
 
     .thumb-slider .image {
