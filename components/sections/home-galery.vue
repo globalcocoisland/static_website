@@ -170,8 +170,12 @@
         @apply aspect-w-1 aspect-h-1 md:aspect-w-4 md:aspect-h-2 relative;
     }
 
+    .thumb-slider {
+        box-sizing: border-box;
+    }
+
     .thumb-slider .swiper-slide {
-        @apply w-1/4 opacity-60 cursor-pointer;
+        @apply w-1/4 opacity-40 cursor-pointer;
         @apply transition-all duration-300 ease-linear;
 
         @media screen and (min-width: 1024px) {
